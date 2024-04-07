@@ -1,0 +1,28 @@
+# Mac OS
+.DS_Store
+
+# Visual Studio Code
+.vscode/
+
+# Carpeta de binarios generados
+/bin/
+/obj/
+
+# Archivos de caché y configuración de Visual Studio
+*.user
+*.suo
+*.cache
+*.vs
+
+# Carpeta de paquetes NuGet
+/nuget/
+
+# Carpeta de paquetes npm
+/node_modules/
+
+# Carpeta de salida de LibMan
+/wwwroot/lib/
+
+# Archivos de registro y errores
+*.log
+*.errors

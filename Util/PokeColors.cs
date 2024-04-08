@@ -26,5 +26,20 @@ namespace BlazonDex.Util
             };
             return color;
         }
+
+        public static string GetStatColor(string stat)
+        {
+            string color = stat switch
+            {
+                "hp"=>"#FE0000",
+                "attack"=>"#EE7F30",
+                "defense"=>"#F7D02C",
+                "special-attack"=>"#F85687",
+                "special-defense"=>"#77C755",
+                "speed"=>"#678FEE",
+                _ =>"#0190FF"
+            };
+            return color;
+        }
     }
 }

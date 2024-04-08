@@ -1,4 +1,4 @@
-@page "/pokemon"
+@page "/pokemon/{PokemonId}"
 @inject PokeClient client
 
 <div class="container">
@@ -49,8 +49,10 @@
 </div>
 
 @code{
+    [Parameter]
+    public string PokemonId{get;set;}
     Pokemon pokemon=new Pokemon();
     protected async override Task OnInitializedAsync(){
-        pokemon=await client.GetPokemon("12");
+{}        pokemon=await client.GetPokemon(PokemonId);
     }
 }

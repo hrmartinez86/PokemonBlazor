@@ -22,7 +22,11 @@
     align-items: center;
     text-align: center;
     border-radius: 10px;
-    box-shadow: 0 10px rgba(0,0,0,0.15);
+    box-shadow: 0 10px 10px 5px rgba(0,0,0,0.15);
+}
+.image-title{
+    width: 400px;
+    margin: 0 auto 20px auto;
 }
 img{
     width: 80%;
@@ -36,4 +40,14 @@ img{
     text-transform: capitalize;
     text-decoration: none;
     color: black;
+}
+.type-badge{
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 8px;
+    font-size: 13px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-right: 3px;
 }
